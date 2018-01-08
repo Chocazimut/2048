@@ -1,0 +1,244 @@
+@font-face {
+  font-family: Snickles;
+  src: local('Snickles'),
+       url('Snickles-webfont.woff') format('woff');
+ }
+
+html body{
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+}
+
+.Games {
+	width: 100%;
+	height: 100%;
+	background-color: #03253a;
+	color: #00d6be;
+	display: block;
+	margin: 0;
+	font-family: Quicksand;
+	background-image: url("img/fonds_marins.jpg");
+	height: 100%;
+}
+.row1{
+	padding-top: 50px;
+	font-family: Snickles;
+}
+
+.row2{
+	padding-bottom: 20px;
+}
+
+.row{
+	width: 520px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1{
+	font-family: Snickles;
+	font-size: 70px;
+	color: #fff;
+	text-shadow: 0px 0px 80px rgba(255, 255, 255, 0.6);
+	width: 50%;
+	margin: 0;
+	letter-spacing: 10px;
+}
+#all_scores_container{
+    display: flex;
+	width: 33%;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Quicksand;
+    border-radius: 4px;
+    line-height: 0;
+}
+
+#scores_container{
+    display: flex;
+	width: 48%;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    background-color: #ffa48c;
+    color: #fff;
+    font-weight: bold;
+    font-family: Quicksand;
+    border-radius: 4px;
+    line-height: 0;
+}
+
+#best_scores_container{
+    display: flex;
+	width: 48%;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffa48c;
+    color: #fff;
+    font-weight: bold;
+    font-family: Quicksand;
+    border-radius: 4px;
+}
+
+#slogan{
+	width: 82%;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.newGame{
+	background-color: #ffa48c;
+	width: 40%;
+	border: solid 5px #ffa48c;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	border-style: none;
+	height: 30px;
+	font-family: Quicksand;
+	cursor: pointer;
+}
+.newGame:hover{
+	background-color: #03253a;
+	border: solid 2px #ffa48c;
+	border-radius: 3px;
+	color: #ffa48c;
+}
+
+table {
+    margin: auto;
+    border-spacing: 0;
+	background-color: #fff;
+	border: solid 5px #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+tr{
+	text-align: center;
+	background-color: #fff;
+}
+td {
+    width: 100px;
+    height: 100px;
+    border: solid 5px #fff;
+    border-radius: 10px;
+    font-family: Pacifico;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px
+}
+
+
+
+.color_0{
+	background-color: #F2E4C2;
+	color: #544D40;
+}
+.color_2{
+	background-color: #1EAAB8;
+	color: #fff;
+}
+.color_4{
+	background-color: #00445E;
+	color: #fff;
+}
+.color_8{
+	background-color: #ffa08c;
+	color: #fff;
+}
+.color_16{
+	background-color: #52919b;
+	color: #FFF;
+}
+.color_32{
+	background-color: #EB706E;
+	color: #FFF;
+}
+.color_64{
+	background-color: #EBC78B;
+	color: #FFF;
+}
+.color_128{
+	background-color: #236272;
+	color: #FFF;
+}
+.color_256{
+	background-color: #163F48;
+	color: #FFF;
+}
+.color_512{
+	background-color: #0C2429;
+	color: #FFF;
+}
+.color_1024{
+	background-color: #051012;
+	color: #FFF;
+}
+.color_2048{
+	background-color: #000000;
+	color: #FFF;
+}
+
+.win_loose_hover{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: flex;
+	color: #03253a;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 100px;
+	line-height: 0;
+	font-family: Pacifico;
+	font-weight: bold;
+}
+
+.win_loose_hover>.newGame{
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	justify-content: center;
+	color: #03253a;
+}
+
+.win_loose_hover>.newGame:hover {
+	background-color: #03253a;
+	border: solid 2px #03253a;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.win_loose_hover.newGame p {
+	margin-bottom: 10px;
+}
+
+.img{
+	width: 150px;
+}
+
+#line{
+	width: 100%;
+	height: 1px;
+	background-color: #fff;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+#rules{
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+#credits{
+	margin-top: 0;
+}
